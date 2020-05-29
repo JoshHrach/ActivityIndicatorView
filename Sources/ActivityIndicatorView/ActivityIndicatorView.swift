@@ -4,7 +4,7 @@ import SwiftUI
 /**
  A view that shows that a task is in progress.
  */
-struct ActivityIndicatorView: View {
+public struct ActivityIndicatorView: View {
     private var backgroundColor: Color
     private var foregroundColor: Color
     
@@ -30,12 +30,12 @@ struct ActivityIndicatorView: View {
      - parameter backgroundColor: The background color behind the indicator. This will appear in a circle behind the view. If none is set, defaults to `.clear`.
      - parameter foregroundColor: The color of the activity indicator. If none is set, defaults to `.gray`.
      */
-    init(backgroundColor: Color = .clear, foregroundColor: Color = .gray) {
+    public init(backgroundColor: Color = .clear, foregroundColor: Color = .gray) {
         self.backgroundColor = backgroundColor
         self.foregroundColor = foregroundColor
     }
     
-    var body: some View {
+    public var body: some View {
         ZStack {
             Circle()
                 .fill(backgroundColor)
