@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ActivityIndicatorView",
+        "repositoryURL": "https://github.com/JoshHrach/ActivityIndicatorView",
+        "state": {
+          "branch": "master",
+          "revision": "19452349726307f73841157609e7c6dfd020470c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

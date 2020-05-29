@@ -1,0 +1,1078 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D18016248087840090618C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D18015248087840090618C /* AppDelegate.swift */; };
+		46D18018248087840090618C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D18017248087840090618C /* SceneDelegate.swift */; };
+		46D1801A248087840090618C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D18019248087840090618C /* ContentView.swift */; };
+		46D1801C248087840090618C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D1801B248087840090618C /* Assets.xcassets */; };
+		46D1801F248087840090618C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D1801E248087840090618C /* Preview Assets.xcassets */; };
+		46D18022248087840090618C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D18020248087840090618C /* LaunchScreen.storyboard */; };
+		46D1802B248087AA0090618C /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 46D1802A248087AA0090618C /* ActivityIndicatorView */; };
+		46D1802D248090800090618C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1802C248090800090618C /* TestView.swift */; };
+		46D18034248094410090618C /* ActivityIndicatorViewTestWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 46D18033248094410090618C /* ActivityIndicatorViewTestWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		46D1803A248094410090618C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D18038248094410090618C /* Interface.storyboard */; };
+		46D1803C248094420090618C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D1803B248094420090618C /* Assets.xcassets */; };
+		46D18043248094420090618C /* ActivityIndicatorViewTestWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 46D18042248094420090618C /* ActivityIndicatorViewTestWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		46D18048248094420090618C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D18047248094420090618C /* ContentView.swift */; };
+		46D1804A248094420090618C /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D18049248094420090618C /* HostingController.swift */; };
+		46D1804C248094420090618C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1804B248094420090618C /* ExtensionDelegate.swift */; };
+		46D1804E248094430090618C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D1804D248094430090618C /* Assets.xcassets */; };
+		46D18051248094430090618C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D18050248094430090618C /* Preview Assets.xcassets */; };
+		46D1805E2480944C0090618C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1802C248090800090618C /* TestView.swift */; };
+		46D18061248094640090618C /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 46D18060248094640090618C /* ActivityIndicatorView */; };
+		46D18069248094C50090618C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D18068248094C50090618C /* AppDelegate.swift */; };
+		46D1806B248094C50090618C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1806A248094C50090618C /* ContentView.swift */; };
+		46D1806D248094C60090618C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D1806C248094C60090618C /* Assets.xcassets */; };
+		46D18070248094C60090618C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D1806F248094C60090618C /* Preview Assets.xcassets */; };
+		46D18073248094C60090618C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D18071248094C60090618C /* LaunchScreen.storyboard */; };
+		46D18078248094CF0090618C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1802C248090800090618C /* TestView.swift */; };
+		46D1807A248094E60090618C /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 46D18079248094E60090618C /* ActivityIndicatorView */; };
+		46D180822480952D0090618C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D180812480952D0090618C /* AppDelegate.swift */; };
+		46D180842480952D0090618C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D180832480952D0090618C /* ContentView.swift */; };
+		46D180862480952F0090618C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D180852480952F0090618C /* Assets.xcassets */; };
+		46D180892480952F0090618C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D180882480952F0090618C /* Preview Assets.xcassets */; };
+		46D1808C2480952F0090618C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D1808A2480952F0090618C /* Main.storyboard */; };
+		46D18093248095380090618C /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 46D18092248095380090618C /* ActivityIndicatorView */; };
+		46D180942480953E0090618C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1802C248090800090618C /* TestView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D18035248094410090618C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D1800A248087840090618C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D18032248094410090618C;
+			remoteInfo = "ActivityIndicatorViewTestWatch WatchKit App";
+		};
+		46D18044248094420090618C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D1800A248087840090618C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D18041248094420090618C;
+			remoteInfo = "ActivityIndicatorViewTestWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46D18056248094430090618C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				46D18043248094420090618C /* ActivityIndicatorViewTestWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1805A248094430090618C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				46D18034248094410090618C /* ActivityIndicatorViewTestWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46D18012248087840090618C /* ActivityIndicatorViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityIndicatorViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D18015248087840090618C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D18017248087840090618C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		46D18019248087840090618C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46D1801B248087840090618C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D1801E248087840090618C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46D18021248087840090618C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46D18023248087840090618C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D1802C248090800090618C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		46D18030248094400090618C /* ActivityIndicatorViewTestWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityIndicatorViewTestWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D18033248094410090618C /* ActivityIndicatorViewTestWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ActivityIndicatorViewTestWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D18039248094410090618C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		46D1803B248094420090618C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D1803D248094420090618C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D18042248094420090618C /* ActivityIndicatorViewTestWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ActivityIndicatorViewTestWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D18047248094420090618C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46D18049248094420090618C /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		46D1804B248094420090618C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		46D1804D248094430090618C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D18050248094430090618C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46D18052248094430090618C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D18066248094C50090618C /* ActivityIndicatorViewTestTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityIndicatorViewTestTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D18068248094C50090618C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D1806A248094C50090618C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46D1806C248094C60090618C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D1806F248094C60090618C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46D18072248094C60090618C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46D18074248094C60090618C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D1807F2480952D0090618C /* ActivityIndicatorViewTestMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityIndicatorViewTestMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D180812480952D0090618C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D180832480952D0090618C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46D180852480952F0090618C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D180882480952F0090618C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46D1808B2480952F0090618C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46D1808D2480952F0090618C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D1808E2480952F0090618C /* ActivityIndicatorViewTestMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ActivityIndicatorViewTestMac.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D1800F248087840090618C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1802B248087AA0090618C /* ActivityIndicatorView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1803F248094420090618C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D18061248094640090618C /* ActivityIndicatorView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D18063248094C50090618C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1807A248094E60090618C /* ActivityIndicatorView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1807C2480952D0090618C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D18093248095380090618C /* ActivityIndicatorView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D18009248087840090618C = {
+			isa = PBXGroup;
+			children = (
+				46D18014248087840090618C /* ActivityIndicatorViewTest */,
+				46D18037248094410090618C /* ActivityIndicatorViewTestWatch WatchKit App */,
+				46D18046248094420090618C /* ActivityIndicatorViewTestWatch WatchKit Extension */,
+				46D18067248094C50090618C /* ActivityIndicatorViewTestTV */,
+				46D180802480952D0090618C /* ActivityIndicatorViewTestMac */,
+				46D18013248087840090618C /* Products */,
+				46D1805F248094640090618C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46D18013248087840090618C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D18012248087840090618C /* ActivityIndicatorViewTest.app */,
+				46D18030248094400090618C /* ActivityIndicatorViewTestWatch.app */,
+				46D18033248094410090618C /* ActivityIndicatorViewTestWatch WatchKit App.app */,
+				46D18042248094420090618C /* ActivityIndicatorViewTestWatch WatchKit Extension.appex */,
+				46D18066248094C50090618C /* ActivityIndicatorViewTestTV.app */,
+				46D1807F2480952D0090618C /* ActivityIndicatorViewTestMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D18014248087840090618C /* ActivityIndicatorViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				46D18015248087840090618C /* AppDelegate.swift */,
+				46D18017248087840090618C /* SceneDelegate.swift */,
+				46D18019248087840090618C /* ContentView.swift */,
+				46D1802C248090800090618C /* TestView.swift */,
+				46D1801B248087840090618C /* Assets.xcassets */,
+				46D18020248087840090618C /* LaunchScreen.storyboard */,
+				46D18023248087840090618C /* Info.plist */,
+				46D1801D248087840090618C /* Preview Content */,
+			);
+			path = ActivityIndicatorViewTest;
+			sourceTree = "<group>";
+		};
+		46D1801D248087840090618C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46D1801E248087840090618C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46D18037248094410090618C /* ActivityIndicatorViewTestWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				46D18038248094410090618C /* Interface.storyboard */,
+				46D1803B248094420090618C /* Assets.xcassets */,
+				46D1803D248094420090618C /* Info.plist */,
+			);
+			path = "ActivityIndicatorViewTestWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		46D18046248094420090618C /* ActivityIndicatorViewTestWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				46D18047248094420090618C /* ContentView.swift */,
+				46D18049248094420090618C /* HostingController.swift */,
+				46D1804B248094420090618C /* ExtensionDelegate.swift */,
+				46D1804D248094430090618C /* Assets.xcassets */,
+				46D18052248094430090618C /* Info.plist */,
+				46D1804F248094430090618C /* Preview Content */,
+			);
+			path = "ActivityIndicatorViewTestWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		46D1804F248094430090618C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46D18050248094430090618C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46D1805F248094640090618C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46D18067248094C50090618C /* ActivityIndicatorViewTestTV */ = {
+			isa = PBXGroup;
+			children = (
+				46D18068248094C50090618C /* AppDelegate.swift */,
+				46D1806A248094C50090618C /* ContentView.swift */,
+				46D1806C248094C60090618C /* Assets.xcassets */,
+				46D18071248094C60090618C /* LaunchScreen.storyboard */,
+				46D18074248094C60090618C /* Info.plist */,
+				46D1806E248094C60090618C /* Preview Content */,
+			);
+			path = ActivityIndicatorViewTestTV;
+			sourceTree = "<group>";
+		};
+		46D1806E248094C60090618C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46D1806F248094C60090618C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46D180802480952D0090618C /* ActivityIndicatorViewTestMac */ = {
+			isa = PBXGroup;
+			children = (
+				46D180812480952D0090618C /* AppDelegate.swift */,
+				46D180832480952D0090618C /* ContentView.swift */,
+				46D180852480952F0090618C /* Assets.xcassets */,
+				46D1808A2480952F0090618C /* Main.storyboard */,
+				46D1808D2480952F0090618C /* Info.plist */,
+				46D1808E2480952F0090618C /* ActivityIndicatorViewTestMac.entitlements */,
+				46D180872480952F0090618C /* Preview Content */,
+			);
+			path = ActivityIndicatorViewTestMac;
+			sourceTree = "<group>";
+		};
+		46D180872480952F0090618C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46D180882480952F0090618C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D18011248087840090618C /* ActivityIndicatorViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D18026248087840090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTest" */;
+			buildPhases = (
+				46D1800E248087840090618C /* Sources */,
+				46D1800F248087840090618C /* Frameworks */,
+				46D18010248087840090618C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActivityIndicatorViewTest;
+			packageProductDependencies = (
+				46D1802A248087AA0090618C /* ActivityIndicatorView */,
+			);
+			productName = ActivityIndicatorViewTest;
+			productReference = 46D18012248087840090618C /* ActivityIndicatorViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46D1802F248094400090618C /* ActivityIndicatorViewTestWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D1805B248094430090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTestWatch" */;
+			buildPhases = (
+				46D1802E248094400090618C /* Resources */,
+				46D1805A248094430090618C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D18036248094410090618C /* PBXTargetDependency */,
+			);
+			name = ActivityIndicatorViewTestWatch;
+			productName = ActivityIndicatorViewTestWatch;
+			productReference = 46D18030248094400090618C /* ActivityIndicatorViewTestWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		46D18032248094410090618C /* ActivityIndicatorViewTestWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D18057248094430090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTestWatch WatchKit App" */;
+			buildPhases = (
+				46D18031248094410090618C /* Resources */,
+				46D18056248094430090618C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D18045248094420090618C /* PBXTargetDependency */,
+			);
+			name = "ActivityIndicatorViewTestWatch WatchKit App";
+			productName = "ActivityIndicatorViewTestWatch WatchKit App";
+			productReference = 46D18033248094410090618C /* ActivityIndicatorViewTestWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		46D18041248094420090618C /* ActivityIndicatorViewTestWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D18053248094430090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTestWatch WatchKit Extension" */;
+			buildPhases = (
+				46D1803E248094420090618C /* Sources */,
+				46D1803F248094420090618C /* Frameworks */,
+				46D18040248094420090618C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActivityIndicatorViewTestWatch WatchKit Extension";
+			packageProductDependencies = (
+				46D18060248094640090618C /* ActivityIndicatorView */,
+			);
+			productName = "ActivityIndicatorViewTestWatch WatchKit Extension";
+			productReference = 46D18042248094420090618C /* ActivityIndicatorViewTestWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		46D18065248094C50090618C /* ActivityIndicatorViewTestTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D18075248094C60090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTestTV" */;
+			buildPhases = (
+				46D18062248094C50090618C /* Sources */,
+				46D18063248094C50090618C /* Frameworks */,
+				46D18064248094C50090618C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActivityIndicatorViewTestTV;
+			packageProductDependencies = (
+				46D18079248094E60090618C /* ActivityIndicatorView */,
+			);
+			productName = ActivityIndicatorViewTestTV;
+			productReference = 46D18066248094C50090618C /* ActivityIndicatorViewTestTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46D1807E2480952D0090618C /* ActivityIndicatorViewTestMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D1808F2480952F0090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTestMac" */;
+			buildPhases = (
+				46D1807B2480952D0090618C /* Sources */,
+				46D1807C2480952D0090618C /* Frameworks */,
+				46D1807D2480952D0090618C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActivityIndicatorViewTestMac;
+			packageProductDependencies = (
+				46D18092248095380090618C /* ActivityIndicatorView */,
+			);
+			productName = ActivityIndicatorViewTestMac;
+			productReference = 46D1807F2480952D0090618C /* ActivityIndicatorViewTestMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D1800A248087840090618C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Josh Hrach";
+				TargetAttributes = {
+					46D18011248087840090618C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					46D1802F248094400090618C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					46D18032248094410090618C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					46D18041248094420090618C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					46D18065248094C50090618C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					46D1807E2480952D0090618C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 46D1800D248087840090618C /* Build configuration list for PBXProject "ActivityIndicatorViewTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D18009248087840090618C;
+			packageReferences = (
+				46D18029248087AA0090618C /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+			);
+			productRefGroup = 46D18013248087840090618C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D18011248087840090618C /* ActivityIndicatorViewTest */,
+				46D1802F248094400090618C /* ActivityIndicatorViewTestWatch */,
+				46D18032248094410090618C /* ActivityIndicatorViewTestWatch WatchKit App */,
+				46D18041248094420090618C /* ActivityIndicatorViewTestWatch WatchKit Extension */,
+				46D18065248094C50090618C /* ActivityIndicatorViewTestTV */,
+				46D1807E2480952D0090618C /* ActivityIndicatorViewTestMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D18010248087840090618C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D18022248087840090618C /* LaunchScreen.storyboard in Resources */,
+				46D1801F248087840090618C /* Preview Assets.xcassets in Resources */,
+				46D1801C248087840090618C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1802E248094400090618C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D18031248094410090618C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1803C248094420090618C /* Assets.xcassets in Resources */,
+				46D1803A248094410090618C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D18040248094420090618C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D18051248094430090618C /* Preview Assets.xcassets in Resources */,
+				46D1804E248094430090618C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D18064248094C50090618C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D18073248094C60090618C /* LaunchScreen.storyboard in Resources */,
+				46D18070248094C60090618C /* Preview Assets.xcassets in Resources */,
+				46D1806D248094C60090618C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1807D2480952D0090618C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1808C2480952F0090618C /* Main.storyboard in Resources */,
+				46D180892480952F0090618C /* Preview Assets.xcassets in Resources */,
+				46D180862480952F0090618C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D1800E248087840090618C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1802D248090800090618C /* TestView.swift in Sources */,
+				46D18016248087840090618C /* AppDelegate.swift in Sources */,
+				46D18018248087840090618C /* SceneDelegate.swift in Sources */,
+				46D1801A248087840090618C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1803E248094420090618C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1805E2480944C0090618C /* TestView.swift in Sources */,
+				46D1804A248094420090618C /* HostingController.swift in Sources */,
+				46D18048248094420090618C /* ContentView.swift in Sources */,
+				46D1804C248094420090618C /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D18062248094C50090618C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D18078248094CF0090618C /* TestView.swift in Sources */,
+				46D1806B248094C50090618C /* ContentView.swift in Sources */,
+				46D18069248094C50090618C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1807B2480952D0090618C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D180942480953E0090618C /* TestView.swift in Sources */,
+				46D180842480952D0090618C /* ContentView.swift in Sources */,
+				46D180822480952D0090618C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46D18036248094410090618C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D18032248094410090618C /* ActivityIndicatorViewTestWatch WatchKit App */;
+			targetProxy = 46D18035248094410090618C /* PBXContainerItemProxy */;
+		};
+		46D18045248094420090618C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D18041248094420090618C /* ActivityIndicatorViewTestWatch WatchKit Extension */;
+			targetProxy = 46D18044248094420090618C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46D18020248087840090618C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D18021248087840090618C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		46D18038248094410090618C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D18039248094410090618C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		46D18071248094C60090618C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D18072248094C60090618C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		46D1808A2480952F0090618C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D1808B2480952F0090618C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D18024248087840090618C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46D18025248087840090618C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D18027248087840090618C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ActivityIndicatorViewTest/Preview Content\"";
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ActivityIndicatorViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46D18028248087840090618C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ActivityIndicatorViewTest/Preview Content\"";
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ActivityIndicatorViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46D18054248094430090618C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ActivityIndicatorViewTestWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ActivityIndicatorViewTestWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTestWatch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		46D18055248094430090618C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ActivityIndicatorViewTestWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ActivityIndicatorViewTestWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTestWatch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		46D18058248094430090618C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				IBSC_MODULE = ActivityIndicatorViewTestWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "ActivityIndicatorViewTestWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTestWatch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		46D18059248094430090618C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				IBSC_MODULE = ActivityIndicatorViewTestWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "ActivityIndicatorViewTestWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTestWatch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		46D1805C248094430090618C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTestWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		46D1805D248094430090618C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTestWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		46D18076248094C60090618C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ActivityIndicatorViewTestTV/Preview Content\"";
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ActivityIndicatorViewTestTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTestTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		46D18077248094C60090618C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ActivityIndicatorViewTestTV/Preview Content\"";
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ActivityIndicatorViewTestTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTestTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Release;
+		};
+		46D180902480952F0090618C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ActivityIndicatorViewTestMac/ActivityIndicatorViewTestMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ActivityIndicatorViewTestMac/Preview Content\"";
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ActivityIndicatorViewTestMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTestMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		46D180912480952F0090618C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ActivityIndicatorViewTestMac/ActivityIndicatorViewTestMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ActivityIndicatorViewTestMac/Preview Content\"";
+				DEVELOPMENT_TEAM = QQK58F3XAD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ActivityIndicatorViewTestMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ActivityIndicatorViewTestMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D1800D248087840090618C /* Build configuration list for PBXProject "ActivityIndicatorViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D18024248087840090618C /* Debug */,
+				46D18025248087840090618C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D18026248087840090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D18027248087840090618C /* Debug */,
+				46D18028248087840090618C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D18053248094430090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTestWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D18054248094430090618C /* Debug */,
+				46D18055248094430090618C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D18057248094430090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTestWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D18058248094430090618C /* Debug */,
+				46D18059248094430090618C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D1805B248094430090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTestWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D1805C248094430090618C /* Debug */,
+				46D1805D248094430090618C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D18075248094C60090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTestTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D18076248094C60090618C /* Debug */,
+				46D18077248094C60090618C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D1808F2480952F0090618C /* Build configuration list for PBXNativeTarget "ActivityIndicatorViewTestMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D180902480952F0090618C /* Debug */,
+				46D180912480952F0090618C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		46D18029248087AA0090618C /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JoshHrach/ActivityIndicatorView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		46D1802A248087AA0090618C /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D18029248087AA0090618C /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+		46D18060248094640090618C /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D18029248087AA0090618C /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+		46D18079248094E60090618C /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D18029248087AA0090618C /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+		46D18092248095380090618C /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D18029248087AA0090618C /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 46D1800A248087840090618C /* Project object */;
+}
