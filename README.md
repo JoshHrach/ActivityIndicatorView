@@ -27,9 +27,13 @@ In your SwiftUI `.swift` file, add `import ActivityIndicatorView`.
 
 You can add the view directly without customization. This will produce a view identical to `UIActivityIndicatorView`.
 
+<img src="basic.gif" width="150" height="150">
+
 ### Custom
 
 You can customize the view on initialization. By specifying a `foregroundColor` and `backgroundColor`, you can adapt the view for your application.
+
+<img src="customized.gif" width="350" height="600">
 
 ## Support
 
