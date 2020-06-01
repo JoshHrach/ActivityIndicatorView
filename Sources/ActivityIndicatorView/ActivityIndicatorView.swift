@@ -13,7 +13,7 @@ public struct ActivityIndicatorView: View {
     /// Total number of dashes visible in the indicator.
     private var totalDashes = 12
     
-    /// Duration between revolutions
+    /// Time to complete a single revolution. In seconds.
     private(set) var period: Double
     
     /// Radial offset. State property used to animate the view.
