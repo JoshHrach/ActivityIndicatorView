@@ -5,11 +5,18 @@ import SwiftUI
  A view that shows that a task is in progress.
  */
 public struct ActivityIndicatorView: View {
+    /// Background color behind the indicator. This appears in a circle behind the activity view.
     private var backgroundColor: Color
+    /// The color of the activity indicator. This is in a gradient that fades to `.white`.
     private var foregroundColor: Color
     
+    /// Total number of dashes visible in the indicator.
     private var totalDashes = 12
     
+    /// Time to complete a single revolution. In seconds.
+    private(set) var period: Double
+    
+    /// Radial offset. State property used to animate the view.
     @State private var radialOffset: Double = 0
     
     private var dashViews: some View {
@@ -29,11 +36,14 @@ public struct ActivityIndicatorView: View {
      
      - parameter backgroundColor: The background color behind the indicator. This will appear in a circle behind the view. If none is set, defaults to `.clear`.
      - parameter foregroundColor: The color of the activity indicator. If none is set, defaults to `.gray`.
+     - parameter period: How long it takes for the view to complete one complete rotation. In seconds. Defaults to `1`.
      */
-    public init(backgroundColor: Color = .clear, foregroundColor: Color = .gray) {
+    public init(backgroundColor: Color = .clear, foregroundColor: Color = .gray, period: Double = 1) {
         self.backgroundColor = backgroundColor
         self.foregroundColor = foregroundColor
+        self.period = period
     }
+    
     
     public var body: some View {
         ZStack {
@@ -42,7 +52,7 @@ public struct ActivityIndicatorView: View {
             
             AngularGradient(gradient: .init(colors: [.white, foregroundColor]), center: .center)
                 .rotationEffect(.degrees(radialOffset))
-                .animation(Animation.linear(duration: 1).repeatForever(autoreverses: false))
+                .animation(Animation.linear(duration: period).repeatForever(autoreverses: false))
                 .mask(self.dashViews)
         }
         .scaledToFit()
