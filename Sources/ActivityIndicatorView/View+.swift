@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension View {
+public extension View {
     func activityIndicator(isVisible: Bool) -> some View {
         self.activityIndicator(isVisible: isVisible) {
             ActivityIndicatorView()
