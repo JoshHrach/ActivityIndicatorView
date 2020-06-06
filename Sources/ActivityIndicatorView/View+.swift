@@ -33,7 +33,7 @@ public extension View {
         Group {
             if isVisible {
                 self
-                    .overlay(indicator().frame(maxWidth: 75, maxHeight: 75))
+                    .overlay(indicator().frame(maxWidth: 50, maxHeight: 50))
             } else {
                 self
             }
