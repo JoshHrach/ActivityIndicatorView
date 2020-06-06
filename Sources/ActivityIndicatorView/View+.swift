@@ -11,7 +11,7 @@ public extension View {
     /**
      Adds an activity indicator to this view.
      
-     This adds a default `ActivityIndicatorView` overlay with a max frame of 75 by 75.
+     This adds a default `ActivityIndicatorView` overlay with a max frame of 50 by 50.
      
      - parameter isVisible: Whether or not the activity indicator is visible
      */
@@ -24,7 +24,7 @@ public extension View {
     /**
     Adds an activity indicator to this view.
      
-     The activity indicator is added as an overlay with a max frame of 75 by 75.
+     The activity indicator is added as an overlay with a max frame of 50 by 50.
     
     - parameter isVisible: Whether or not the activity indicator is visible
     - parameter indicator: The indicator to overlay on this view
