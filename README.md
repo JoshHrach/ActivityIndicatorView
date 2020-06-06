@@ -23,6 +23,36 @@ Install `ActivityIndicatorView` into your project using `Swift Package Manager`.
 
 In your SwiftUI `.swift` file, add `import ActivityIndicatorView`.
 
+To use, simply add the view where you would like it to appear. 
+
+```swift
+// Example view
+HStack {
+  // Your content
+  ...
+  
+  // Show indicator next to your content
+  ActivityIndicatorView()
+}
+```
+
+### Modifier
+
+You can easily add an activity indicator to your view similar to how you would add an `Alert` or `ActionSheet`. This will overlay an activity indicator with a maximum frame size of 50 by 50. On iOS, this will appear similar to the default size of `UIActivityIndicatorView`. When overlaid over smaller views, the activity indicator will automatically resize smaller to fit the frame.
+
+```swift
+// Examples
+// Add a default indicator.
+.activityIndicator(isVisible: true)
+
+// Add a custom indicator
+.activityIndicator(isVisible: true) {
+    ActivityIndicatorView(foregroundColor: .green, backgroundColor: .black)
+}
+```
+
+## Appearance
+
 ### Basic
 
 You can add the view directly without customization. This will produce a view identical to `UIActivityIndicatorView`.
