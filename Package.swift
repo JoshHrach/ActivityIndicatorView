@@ -18,5 +18,6 @@ let package = Package(
         .testTarget(
             name: "ActivityIndicatorViewTests",
             dependencies: ["ActivityIndicatorView"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
