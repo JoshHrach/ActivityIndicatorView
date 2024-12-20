@@ -7,6 +7,8 @@
 
 A SwiftUI replacement for UIActivityIndicatorView
 
+**Note**: Apple added `ProgressView` in iOS 14. It is suggested to use this directly; `ActivityIndicatorView` is thus no longer maintained.
+
 ## Requirements
 
 Version 1.x supports:
